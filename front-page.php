@@ -6,7 +6,15 @@
 get_header();
 ?>
 
-<img src="https://placehold.co/1600x700">
+<div class="homepage-hero"></div>
+
+<div class="colour-banner">
+    <span class="one"></span>
+    <span class="two"></span>
+    <span class="three"></span>
+    <span class="four"></span>
+    <span class="five"></span>
+</div>
 
 <div class="container">
     <?php get_template_part('inc/hero-image'); ?>
@@ -16,17 +24,21 @@ get_header();
         <img id="star" src="<?php echo get_template_directory_uri(); ?>/images/starElement.png">
         <p>Copy Callout</p>
     </div> -->
-    <div id="banner">
-        <p id="text">Animated banners are a popular way to grab the attention of viewers and convey important information or promotions on a website. They typically use a combination of HTML, CSS, and JavaScript to create an animation that loops continuously. This can include scrolling text, moving images, or other types of animation. Animated banners are often placed prominently on a website, such as at the top of a page or in a sidebar, to increase visibility. They can be used to promote sales, upcoming events, or to showcase new products or services. Additionally, animated banners can be used to direct visitors to specific pages or sections of a website. They are also useful to convey information quickly, like stock prices, news, weather, etc. Overall, animated banners are an effective way to convey important information and grab the attention of viewers, making them an important tool for website design and marketing.</p>
-    </div>
+ 
+</div>    
 
-    <p class="wavy-text"></p>
+<div id="banner">
+    <p id="text">Superdry &#65290; Elwood &#65290; Elka Collective &#65290; Clarks &#65290; Hush Puppies &#65290; Julius Marlow &#65290; Volley &#65290; Shoes and Sox &#65290; Shoe Warehouse &#65290; Sharkbay Dive &#65290; Sharkbay 4WD &#65290; SALT Property Group &#65290; TAG Financial &#65290; In Awe Australia &#65290; Perth Glory &#65290; CDS Panel and Paint &#65290; Providence Lifestyle Haynes &#65290; Providence Lifestyle Mandurah &#65290; Superdry &#65290; Elwood &#65290; Elka Collective &#65290; Clarks &#65290; Hush Puppies &#65290; Julius Marlow &#65290; Volley &#65290; Shoes and Sox &#65290; Shoe Warehouse &#65290; Sharkbay Dive &#65290; Sharkbay 4WD &#65290; SALT Property Group &#65290; TAG Financial &#65290; In Awe Australia &#65290; Perth Glory &#65290; CDS Panel and Paint &#65290; Providence Lifestyle Haynes &#65290; Providence Lifestyle Mandurah &#65290; Superdry &#65290; Elwood &#65290; Elka Collective &#65290; Clarks &#65290; Hush Puppies &#65290; Julius Marlow &#65290; Volley &#65290; Shoes and Sox &#65290; Shoe Warehouse &#65290; Sharkbay Dive &#65290; Sharkbay 4WD &#65290; SALT Property Group &#65290; TAG Financial &#65290; In Awe Australia &#65290; Perth Glory &#65290; CDS Panel and Paint &#65290; Providence Lifestyle Haynes &#65290; Providence Lifestyle Mandurah &#65290;</p>
+</div>
 
+<!-- <p class="wavy-text"></p> -->
+
+<div class="container">
     <?php get_template_part('inc/hero-image'); ?>
     <?php get_template_part('inc/hero-image'); ?>
     <?php get_template_part('inc/hero-image'); ?>
     <?php // get_template_part('inc/blog'); ?>
-</div>
+</div>  
 
 
 <?php

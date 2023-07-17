@@ -120,27 +120,47 @@
 #banner {
   width: 100%;
   overflow: hidden;
+  background-color: #ff7a01;
+  padding: 10px 0px;
 }
 
 #text {
   white-space: nowrap;
   font-size: 36px;
-  color: #000;
+  color: #fff;
 }
 
-.wavy-text {
-  text-shadow: 
-    -2px -2px 0 #fff,
-    2px -2px 0 #fff,
-    -2px 2px 0 #fff,
-    2px 2px 0 #fff;
-  animation: wave-animation 2s infinite linear;
-}
-
-@keyframes wave-animation {
-    0% { text-shadow: -2px -2px 0 #fff;}
-    25% { text-shadow: 2px -2px 0 #fff;}
-    50% { text-shadow: -2px 2px 0 #fff;}
-    75% { text-shadow: 2px 2px 0 #fff;}
-    100% { text-shadow: -2px -2px 0 #fff;}
+.colour-banner {
+  width: 100%;
+  min-width: 100%;
+  .one {
+    background-color: #e1e813;
+    padding: 5px;
+    min-width: 100%;
+    display: block;
+  }
+  .two {
+    background-color: #ffcc01;
+    padding: 5px;
+    width: 100%;
+    display: block;
+  }
+  .three {
+    background-color: #ff7a01;
+    padding: 5px;
+    width: 100%;
+    display: block;
+  }
+  .four {
+    background-color: #864100;
+    padding: 5px;
+    width: 100%;
+    display: block;
+  }
+  .five {
+    background-color: #673404;
+    padding: 5px;
+    width: 100%;
+    display: block;
+  }
 }

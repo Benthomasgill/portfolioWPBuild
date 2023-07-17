@@ -393,7 +393,7 @@ function primary_details() {
 
 		echo primary_details()['first_name'];
 	*/
-
+;
     $primary_details = array(
 		'business_name'             => 'Test Site',
 		'first_name'                => '',
