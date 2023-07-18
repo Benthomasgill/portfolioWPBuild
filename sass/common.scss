@@ -12,6 +12,13 @@
     flex-wrap: wrap;
 }
 
+.ct-1-2 {
+  width: 100%;
+  @include breakpoint(md) {
+    width: 50%;
+  }
+}
+
 .ct-20 {
     width: 50%;
     min-width: 50%;
@@ -128,37 +135,39 @@
   white-space: nowrap;
   font-size: 36px;
   color: #fff;
+  font-family: $heading-font;
+  font-weight: $bold;
 }
 
 .colour-banner {
   width: 100%;
   min-width: 100%;
   .one {
-    background-color: #e1e813;
+    background-color: #fc8728;
     padding: 5px;
     min-width: 100%;
     display: block;
   }
   .two {
-    background-color: #ffcc01;
+    background-color: #fb6221;
     padding: 5px;
     width: 100%;
     display: block;
   }
   .three {
-    background-color: #ff7a01;
+    background-color: #fb4d1e;
     padding: 5px;
     width: 100%;
     display: block;
   }
   .four {
-    background-color: #864100;
+    background-color: #6f3119;
     padding: 5px;
     width: 100%;
     display: block;
   }
   .five {
-    background-color: #673404;
+    background-color: #422517;
     padding: 5px;
     width: 100%;
     display: block;

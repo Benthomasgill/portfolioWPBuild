@@ -1,2 +1,2 @@
-.homepage-hero{width:100%;height:800px}
+.homepage-hero{width:100%;background:-webkit-linear-gradient(135deg, #bf5235, #e09765, #fb6221, #fc8728);background:-o-linear-gradient(135deg, #bf5235, #e09765, #fb6221, #fc8728);background:linear-gradient(-45deg, #bf5235, #e09765, #fb6221, #fc8728);background-size:400% 400%;-webkit-animation:gradient 15s ease infinite;animation:gradient 15s ease infinite;height:100vh}@-webkit-keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}to{background-position:0% 50%}}@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}to{background-position:0% 50%}}
 /*# sourceMappingURL=homepage.css.map */

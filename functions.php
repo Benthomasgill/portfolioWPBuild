@@ -204,6 +204,9 @@ add_action('wp_enqueue_scripts', 'mytheme_styles');
 
  /* Tracking */
 function sb_start_head() { ?>
+	/* Import custom font */
+	<link rel="stylesheet" href="https://use.typekit.net/cig4gyu.css">
+	
 	/* Put GTM, GA4 tracking tags in here */
 	/* Anything that requires script in the head */
 

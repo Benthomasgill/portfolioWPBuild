@@ -22,7 +22,7 @@
 
 
             <!-- Search toggle button -->    
-            <div class="header-toggles hide-no-js">
+            <!-- <div class="header-toggles hide-no-js">
                 <div class="toggle-wrapper <?php if(wp_is_mobile()) { ?>search-toggle-wrapper<?php } ?>">
                     <button onclick="revealFunction()" class="toggle search-toggle desktop-search-toggle" data-toggle-target=".search-modal" data-toggle-body-class="showing-search-modal" data-set-focus=".search-modal .search-field" aria-expanded="false">
                         <span class="toggle-inner">
@@ -30,7 +30,7 @@
                         </span>
                     </button>
                 </div>
-            </div>
+            </div> -->
 
             <div class="mobile-display">
                 <span onclick="revealMenuFunction()" class="toggle-nav">
