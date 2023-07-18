@@ -6,12 +6,24 @@
 get_header();
 ?>
 
-<div class="homepage-hero"></div>
+<div class="homepage-hero">
+    <div class="hero-overlay-text">
+        <p><span class="front">FRONT-END DEV.</span><br>
+        <span class="living">LIVING IN   </span> <span class="perth">Perth</span><br><span class="west">Western Australia</span>
+        </p>
+        <div class="ct-flex">
+            <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/concept.svg"><p>concept</p></div>
+            <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/design.svg"><p>design</p></div>
+            <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/build.svg"><p>build</p></div>
+        </div>
+    </div>
+</div>
 
-<div class="ct-flex">
+<div class="ct-flex intro-block">
     <div class="ct-1-2"></div>
     <div class="ct-1-2">
-        <p>I have worked as a front-end developer for the last 6 years. I started my career working in-house for the Fashion Apparel company named Brand Collective. 
+        <h2>About me.</h2><br>
+        <p>I have worked as a front-end developer for the last 6 years. I started my career working in-house for the Fashion Apparel company named Brand Collective.<br><br> 
            I spent my time building, maintaining, and upgrading 10 Bigcommerce eCommerce websites. I was also responsible for building both marketing and automated 
            emails in Salesforce, Mailchimp, Campaign Monitor and Mandrill. I am currently working for the Perth based agency Stormbox building and maintaining 
            custom Wordpress and Shopify sites.</p>
