@@ -1,8 +1,8 @@
 <div class="nav-container">
     <div class="header-container">
-        <div class="header-titles">
+        <!-- <div class="header-titles">
             <a href="/"><img class="<?php if(wp_is_mobile()) { ?>site-logo-mobile<?php } ?>" alt="<?php echo get_bloginfo( 'name' ); ?>" src="<?php echo get_template_directory_uri(); ?>/images/logos/logo.png"></a>
-        </div>
+        </div> -->
 
         <div class="header-navigation-wrapper">
 
@@ -46,6 +46,12 @@
 
         <div class="search-header">
             <?php get_search_form(); ?>
+        </div>
+
+        <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.svg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/instagram.svg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.svg">
         </div>
     </div>
 </div>

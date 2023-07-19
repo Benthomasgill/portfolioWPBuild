@@ -8,8 +8,8 @@ get_header();
 
 <div class="homepage-hero ">
     <div class="hero-overlay-text">
-        <p><span class="front">FRONT-END DEV.</span><br>
-        <span class="living">LIVING IN   </span> <span class="perth">Perth</span><br><span class="west">Western Australia</span>
+        <p><span class="front">Ben Thomas-Gill <br>Front-End Dev.</span><br>
+        <!-- <span class="living">LIVING IN   </span> <span class="perth">Perth</span><br><span class="west">Western Australia</span> -->
         </p>
         <div class="ct-flex">
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/concept.svg"><p>concept</p></div>
