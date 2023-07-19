@@ -23,10 +23,10 @@ get_header();
     <div class="ct-1-2"></div>
     <div class="ct-1-2">
         <h2>About me.</h2><br>
-        <p>I have worked as a front-end developer for the last 6 years. I started my career working in-house for the Fashion Apparel company named Brand Collective.<br><br> 
-           I spent my time building, maintaining, and upgrading 10 Bigcommerce eCommerce websites. I was also responsible for building both marketing and automated 
-           emails in Salesforce, Mailchimp, Campaign Monitor and Mandrill. I am currently working for the Perth based agency Stormbox building and maintaining 
-           custom Wordpress and Shopify sites.</p>
+        <p>Over the past six years, I have established myself as a front-end developer with a diverse and enriching professional journey. My career began at <a target="_new" href="https://www.brandcollective.com.au/">Brand Collective</a>, an esteemed Fashion Apparel company, where I honed my expertise working across various projects.<br><br>
+           During my tenure, I devoted my efforts to constructing, enhancing, and managing ten distinct <strong>Bigcommerce</strong> eCommerce websites. Additionally, I took charge of crafting marketing and automated emails using platforms such as <strong>Salesforce, Mailchimp, Campaign Monitor,</strong> and <strong>Mandrill</strong>.<br><br>
+           Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. My responsibilities encompass the creation and maintenance of bespoke <strong>Wordpress</strong> and <strong>Shopify</strong> sites, along with the development of impactful marketing emails. Notably, I have taken on a leadership role, successfully project managing the development team for the past six months.<br><br>
+           As part of my continuous professional growth, I have ventured into the realms of SEO and UX, expanding my skill set and contributing further value to the projects I undertake.</p>
     </div>
 </div>
 
