@@ -6,7 +6,7 @@
 get_header();
 ?>
 
-<div class="homepage-hero">
+<div class="homepage-hero ">
     <div class="hero-overlay-text">
         <p><span class="front">FRONT-END DEV.</span><br>
         <span class="living">LIVING IN   </span> <span class="perth">Perth</span><br><span class="west">Western Australia</span>
@@ -17,6 +17,8 @@ get_header();
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/build.svg"><p>build</p></div>
         </div>
     </div>
+    <?php get_template_part('inc/hero-overlay'); ?>
+
 </div>
 
 <div class="ct-flex intro-block">
@@ -32,7 +34,7 @@ get_header();
         <svg>
             <rect x="0" y="0" fill="none" width="130" height="55" />
         </svg>
-        Fancy Me
+        Get In Touch
     </a>
 </div>
 
