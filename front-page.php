@@ -28,6 +28,12 @@ get_header();
            Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. My responsibilities encompass the creation and maintenance of bespoke <strong>Wordpress</strong> and <strong>Shopify</strong> sites, along with the development of impactful marketing emails. Notably, I have taken on a leadership role, successfully project managing the development team for the past six months.<br><br>
            As part of my continuous professional growth, I have ventured into the realms of SEO and UX, expanding my skill set and contributing further value to the projects I undertake.</p>
     </div>
+    <a class="cta">
+        <svg>
+            <rect x="0" y="0" fill="none" width="130" height="55" />
+        </svg>
+        Fancy Me
+    </a>
 </div>
 
 <div class="colour-banner">
