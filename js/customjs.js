@@ -50,7 +50,12 @@ function resetHoverOpacityWithDelay(item) {
       // Remove the inline styles set by :hover
       item.style.opacity = '1';
       item.style.background = '#fff';
-    }, 500); // 1000ms (1 second) delay
+    }, 500); 
+    setTimeout(function() {
+        // Remove the inline styles set by :hover
+        item.style.opacity = '0';
+        item.style.background = '#fff';
+      }, 5000); 
   }
   
   // Get all elements with class "grid__item"
@@ -64,6 +69,9 @@ function resetHoverOpacityWithDelay(item) {
     });
   });
 
+
+
+  // Wait for 5 seconds and then call the function
   
   
   
