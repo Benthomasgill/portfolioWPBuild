@@ -207,10 +207,9 @@
 }
 
 .cta:hover {
-  color: #fb6221;
   svg {
     rect {
-      stroke: #fb6221;
+      stroke: #052dce;
       stroke-width: 5;
       stroke-dasharray: 110, 312;
       stroke-dashoffset: 227;
@@ -242,7 +241,7 @@
 }
 
 .grid__item:hover {
-  opacity: 0.7;
+  opacity: 0.4;
   transition: opacity 0.2s ease;
   transform: scale(1.04);
 }

@@ -16,12 +16,7 @@ get_header();
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/design.svg"><p>design</p></div>
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/build.svg"><p>build</p></div>
         </div> -->
-        <a class="cta">
-            <svg>
-                <rect x="0" y="0" fill="none" width="180" height="55" />
-            </svg>
-            Get In Touch
-        </a>
+        <a class="cta"><svg><rect x="0" y="0" fill="none" width="180" height="55" /></svg>Get In Touch</a>
     </div>
     <?php get_template_part('inc/hero-overlay'); ?>
 

@@ -48,7 +48,7 @@
             <?php get_search_form(); ?>
         </div>
 
-        <div>
+        <div class="social-block">
             <img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.svg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/icons/instagram.svg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.svg">

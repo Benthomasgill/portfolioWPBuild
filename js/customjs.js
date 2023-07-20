@@ -39,7 +39,7 @@ text.style.marginLeft = (parseInt(text.style.marginLeft) - 1) + "%";
 function resetHoverOpacityWithDelay(item) {
     setTimeout(function() {
       // Remove the inline styles set by :hover
-      item.style.opacity = '1';
+      item.style.opacity = '0.7';
       item.style.background = '#fff';
     }, 500); 
     setTimeout(function() {
@@ -62,6 +62,22 @@ gridItems.forEach((item) => {
 
 
   
-  
+// Nav appear at scroll height 
+
+const nav = document.getElementsByClassName('nav-container')[0];
+nav.style.backgroundColor = 'none';
+
+window.onscroll = function (event) {
+    var scroll = window.pageYOffset;
+    if (scroll > 700) {
+        // green
+        nav.style.backgroundColor = '#180648';
+    } else if (scroll < 700) {
+        nav.style.backgroundColor = '#ffffff00';
+    } 
+};
+
+
+
   
   
