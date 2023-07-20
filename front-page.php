@@ -8,14 +8,20 @@ get_header();
 
 <div class="homepage-hero ">
     <div class="hero-overlay-text">
-        <p><span class="front">Ben Thomas-Gill <br>Front-End Dev.</span><br>
+        <p><span class="front glow">Hello I'm Ben Thomas-Gill <br>I'm a Front-End Dev.</span><br>
         <!-- <span class="living">LIVING IN   </span> <span class="perth">Perth</span><br><span class="west">Western Australia</span> -->
         </p>
-        <div class="ct-flex">
+        <!-- <div class="ct-flex">
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/concept.svg"><p>concept</p></div>
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/design.svg"><p>design</p></div>
             <div class="ct-1-3"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/build.svg"><p>build</p></div>
-        </div>
+        </div> -->
+        <a class="cta">
+            <svg>
+                <rect x="0" y="0" fill="none" width="180" height="55" />
+            </svg>
+            Get In Touch
+        </a>
     </div>
     <?php get_template_part('inc/hero-overlay'); ?>
 
@@ -30,12 +36,7 @@ get_header();
            Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. My responsibilities encompass the creation and maintenance of bespoke <strong>Wordpress</strong> and <strong>Shopify</strong> sites, along with the development of impactful marketing emails. Notably, I have taken on a leadership role, successfully project managing the development team for the past six months.<br><br>
            As part of my continuous professional growth, I have ventured into the realms of SEO and UX, expanding my skill set and contributing further value to the projects I undertake.</p>
     </div>
-    <a class="cta">
-        <svg>
-            <rect x="0" y="0" fill="none" width="130" height="55" />
-        </svg>
-        Get In Touch
-    </a>
+
 </div>
 
 <div class="colour-banner">

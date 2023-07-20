@@ -24,15 +24,6 @@ let revealMenuFunction = () => {
     };
 };
 
-
-// var element = document.getElementById("star");
-// var rotation = 0;
-
-// window.addEventListener("scroll", function() {
-//     rotation += 2;
-//     element.style.transform = "rotate(" + rotation + "deg)";
-// });
-
 // Text Banner - Homepage animation
 
 const text = document.getElementById("text");
@@ -40,9 +31,9 @@ text.style.marginLeft = "100%";
 
 setInterval(function() {
 text.style.marginLeft = (parseInt(text.style.marginLeft) - 1) + "%";
-if (parseInt(text.style.marginLeft) <= -1000) {
-    text.style.marginLeft = "100%";
-}
+    if (parseInt(text.style.marginLeft) <= -1000) {
+        text.style.marginLeft = "100%";
+    }
 }, 80);
 
 function resetHoverOpacityWithDelay(item) {
@@ -58,20 +49,18 @@ function resetHoverOpacityWithDelay(item) {
       }, 5000); 
   }
   
-  // Get all elements with class "grid__item"
-  const gridItems = document.querySelectorAll('.grid__item');
-  
-  // Loop through each element and add an event listener for "mouseover"
-  gridItems.forEach((item) => {
+// Get all elements with class "grid__item"
+const gridItems = document.querySelectorAll('.grid__item');
+
+// Loop through each element and add an event listener for "mouseover"
+gridItems.forEach((item) => {
     item.addEventListener('mouseover', function() {
-      // Reset the opacity back to 0 after the delay
-      resetHoverOpacityWithDelay(item);
+        // Reset the opacity back to 0 after the delay
+        resetHoverOpacityWithDelay(item);
     });
-  });
+});
 
 
-
-  // Wait for 5 seconds and then call the function
   
   
   

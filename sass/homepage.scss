@@ -1,12 +1,12 @@
 .homepage-hero {
     width: 100%;
-    background: linear-gradient(-45deg, #3f0892, #031f8e, #483cef, #322e7c);
+    background: linear-gradient(-90deg, #1a023e, #031f8e, #070068, #322e7c);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     height: 100vh;
     position: relative;
     .hero-overlay-text {
-        text-align: center;
+        text-align: left;
         color: $white;
         font-family: $heading-font;
         font-weight: 700;
@@ -15,11 +15,10 @@
         left: 50%;
         transform: translate(-50% , -50%);
         background-color: #000;
-        padding: 38px;
-        border-radius: 36px;
+        padding: 60px;
         z-index: 1;
         .front {
-            font-size: 3em;
+            font-size: 2.2em;
         }
         .living {
             font-size: 3.4em;
@@ -44,6 +43,11 @@
             }
         }
     }
+}
+
+.glow {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                 0 0 50px #fb6221, 0 0 60px #fb6221, 0 0 70px #fb6221;
 }
 
 @keyframes gradient {
