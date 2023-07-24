@@ -36,6 +36,33 @@ text.style.marginLeft = (parseInt(text.style.marginLeft) - 1) + "%";
     }
 }, 80);
 
+
+// JavaScript function to add grid items to the .grid div
+function addGridItemsToScreen() {
+    const gridParent = document.querySelector('.grid');
+    const gridItemWidth = 45; // width of each grid__item in pixels
+  
+    // Calculate the number of items that will fit horizontally on the screen
+    const screenWidth = window.innerWidth;
+    const numItemsPerRow = Math.floor(screenWidth / gridItemWidth);
+  
+    // Calculate the total number of items that will fit on the screen
+    const screenHeight = window.innerHeight;
+    const numItemsPerColumn = Math.floor(screenHeight / gridItemWidth);
+    const totalItems = numItemsPerRow * numItemsPerColumn;
+  
+    // Add the grid__item elements to the .grid div
+    for (let i = 0; i < totalItems; i++) {
+      const gridItem = document.createElement('div');
+      gridItem.classList.add('grid__item');
+      gridParent.appendChild(gridItem);
+    }
+
+}
+  
+// Call the function when the window loads
+window.onload = addGridItemsToScreen;
+
 function resetHoverOpacityWithDelay(item) {
     setTimeout(function() {
       // Remove the inline styles set by :hover
@@ -46,8 +73,8 @@ function resetHoverOpacityWithDelay(item) {
         // Remove the inline styles set by :hover
         item.style.opacity = '0';
         item.style.background = '#fff';
-      }, 5000); 
-  }
+    }, 5000); 
+}
   
 // Get all elements with class "grid__item"
 const gridItems = document.querySelectorAll('.grid__item');

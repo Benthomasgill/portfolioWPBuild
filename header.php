@@ -23,10 +23,29 @@
         <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon-icons/touch-icon.png">
         <link rel="icon" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/images/favicon-icons/icon.png">
 
+	   <!--/ 
+            Avoid FOUC.
+            Cover the body with a full screen white pseudo element.
+        /-->
+        <style type="text/css">
+            #fouc::before {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: #21603e url('<?php echo get_template_directory_uri();?>/images/loading.svg') no-repeat center;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 9999999999999999;
+            }
+        </style>
+
+
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body itemscope="itemscope" itemtype="https://schema.org/WebPage" <?php body_class(); ?> id="fouc">
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'customtheme' ); ?></a>
