@@ -1,3 +1,11 @@
+h1, h2, h3 {
+  font-family: $heading-font;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -16,6 +24,13 @@
   width: 100%;
   @include breakpoint(md) {
     width: 50%;
+  }
+}
+
+.ct-1-5 {
+  width: 50%;
+  @include breakpoint(md) {
+    width: 20%;
   }
 }
 
@@ -209,7 +224,7 @@
 .cta:hover {
   svg {
     rect {
-      stroke: #052dce;
+      stroke: #fff;
       stroke-width: 5;
       stroke-dasharray: 110, 312;
       stroke-dashoffset: 227;

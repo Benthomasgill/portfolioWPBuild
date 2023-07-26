@@ -40,21 +40,32 @@ get_header();
 
 <div class="coloured-background">
     <div class="container featured-projects">
-        <h2>Featured Projects</h2>
-        <div class="ct-flex">
-            <div class="ct-1-2"></div>
-            <div class="ct-1-2">
-                <h3><strong>In Awe Australia</strong><br>
-                Website Design, Co-build, SEO<br>
-                Woocommerce & Wordpress
-                </h3>
-                <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception.<br><br>
-                I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
-                </p>
+        <h2 class="headline">Featured Projects</h2>
+        <div class="slide">
+            <div class="ct-flex slider-block slider-block-white">
+                <div class="ct-1-2">
+                    <img style="max-width:100%;" src="https://placehold.co/600x400">
+                </div>
+                <div class="ct-1-2 slider-text">
+                    <h3><strong>In Awe Australia</strong><br>
+                    Website Design, Co-build, SEO<br>
+                    Woocommerce & Wordpress
+                    </h3>
+                    <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception.<br><br>
+                    I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
+                    </p>
+                </div>
+            </div>
+            <div class="colour-banner">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                <span class="four"></span>
+                <span class="five"></span>
             </div>
         </div>
-        <div class="sb-flex">
-            <div class="ct-1-2">
+        <div class="ct-flex slider-block">
+            <div class="ct-1-2 second-block slider-text">
                 <h3><strong>Tag Finance Group</strong><br>
                 Website Build<br>
                 Wordpress
@@ -63,11 +74,16 @@ get_header();
                 I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
                 </p>
             </div>
-            <div class="ct-1-2"></div>
-        </div>
-        <div class="ct-flex">
-            <div class="ct-1-2"></div>
             <div class="ct-1-2">
+                <img style="max-width:100%;" src="https://placehold.co/600x400">
+            </div>
+        </div>
+        <div class="slide">
+        <div class="ct-flex slider-block slider-block-white">
+            <div class="ct-1-2">
+                <img style="max-width:100%;" src="https://placehold.co/600x400">
+            </div>
+            <div class="ct-1-2 slider-text">
                 <h3><strong>Hush Puppies</strong><br>
                 Campaign Pages Build<br>
                 Big Commerce
@@ -77,8 +93,16 @@ get_header();
                 </p>
             </div>
         </div>
-        <div class="sb-flex">
-            <div class="ct-1-2">
+        <div class="colour-banner">
+                <span class="one"></span>
+                <span class="two"></span>
+                <span class="three"></span>
+                <span class="four"></span>
+                <span class="five"></span>
+            </div>
+        </div>
+        <div class="ct-flex slider-block">
+            <div class="ct-1-2 second-block slider-text">
                 <h3><strong>Tag Finance Group</strong><br>
                 Website Build<br>
                 Wordpress
@@ -87,24 +111,67 @@ get_header();
                 I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
                 </p>
             </div>
-            <div class="ct-1-2"></div>
+            <div class="ct-1-2">
+                <img style="max-width:100%;" src="https://placehold.co/600x400">
+            </div>
         </div>
     </div>
 </div>    
+
+
+<!-- <p class="wavy-text"></p> -->
+
+<div class="container">
+    <div class="the_rest">
+        <h2>And The Rest...</h2>    
+        <div class="ct-flex">
+            <div class="ct-1-5"><img alt="Shoes and Sox" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+        </div>
+    </div>
+
+
+    <?php // get_template_part('inc/blog'); ?>
+</div>  
+
 
 <div id="banner">
     <p id="text">Superdry &#65290; Elwood &#65290; Elka Collective &#65290; Clarks &#65290; Hush Puppies &#65290; Julius Marlow &#65290; Volley &#65290; Shoes and Sox &#65290; Shoe Warehouse &#65290; Sharkbay Dive &#65290; Sharkbay 4WD &#65290; SALT Property Group &#65290; TAG Financial &#65290; In Awe Australia &#65290; Perth Glory Online Store &#65290; CDS Panel and Paint &#65290; Providence Lifestyle Haynes &#65290; Providence Lifestyle Mandurah &#65290; Superdry &#65290; Elwood &#65290; Elka Collective &#65290; Clarks &#65290; Hush Puppies &#65290; Julius Marlow &#65290; Volley &#65290; Shoes and Sox &#65290; Shoe Warehouse &#65290; Sharkbay Dive &#65290; Sharkbay 4WD &#65290; SALT Property Group &#65290; TAG Financial &#65290; In Awe Australia &#65290; Perth Glory Online Store &#65290; CDS Panel and Paint &#65290; Providence Lifestyle Haynes &#65290; Providence Lifestyle Mandurah &#65290; Superdry &#65290; Elwood &#65290; Elka Collective &#65290; Clarks &#65290; Hush Puppies &#65290; Julius Marlow &#65290; Volley &#65290; Shoes and Sox &#65290; Shoe Warehouse &#65290; Sharkbay Dive &#65290; Sharkbay 4WD &#65290; SALT Property Group &#65290; TAG Financial &#65290; In Awe Australia &#65290; Perth Glory Online Store &#65290; CDS Panel and Paint &#65290; Providence Lifestyle Haynes &#65290; Providence Lifestyle Mandurah &#65290;</p>
 </div>
 
-<!-- <p class="wavy-text"></p> -->
+<div>
+    <div class="ct-flex email">
+        <div class="ct-1-2">
+            <h3>Email Marketing Expert</h3>
+            <p>I have built way too many marketing emails in Mailchimp, Campaign Monitor & Salesforce during my time as a front-end developer. As a result, I have become a stickler for keeping up with email standards and unfortunately a bit of an expert in the use of tables</p>
+        </div>
+        <div class="ct-1-2">
+            <img style="min-width:100%;" alt="Email marketing on three different devices" src="<?php echo get_template_directory_uri(); ?>/images/emailMockup.png">
+        </div>
+    </div>
+</div>
 
-<div class="container">
-    <?php get_template_part('inc/hero-image'); ?>
-    <?php get_template_part('inc/hero-image'); ?>
-    <?php get_template_part('inc/hero-image'); ?>
-    <?php // get_template_part('inc/blog'); ?>
-</div>  
 
+<script>
+jQuery(".img").wrap('<div class="alt-wrap"/>');
+
+jQuery(".img").each(function() {
+    jQuery(this).after('<p class="alt">' + jQuery(this).attr('alt') + '</p>');
+})
+</script>
 
 <?php
 get_footer(); ?>

@@ -105,6 +105,9 @@ function customtheme_setup() {
 }
 add_action( 'after_setup_theme', 'customtheme_setup' );
 
+
+
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -201,9 +204,15 @@ add_action('wp_enqueue_scripts', 'mytheme_styles');
 /* Work through these to show relevant scripts */
 /* Work through these to show relevant scripts */
 /* Work through these to show relevant scripts */
+function theme_scripts_method(){
+	wp_enqueue_script( 'jquery');
+}
+add_action( 'wp_enqueue_scripts', 'theme_scripts_method' );
+
 
  /* Tracking */
 function sb_start_head() { ?>
+
 	/* Import custom font */
 
 	
@@ -235,14 +244,6 @@ add_action('before_closing_head', 'sb_before_head');
 */
 function general_scripts() { ?>
 	<script async>
-	
-	/*
-		FOUC: Remove body pseudo element on page load.
-		This is part of the method used to avoid the Flash Of Unstyled Content.
-	*/
-	$(window).load(function () {
-		jQuery('body').removeAttr('id');    
-	});
 
 	/* 
 		Responsive video embeds.
@@ -262,7 +263,9 @@ function general_scripts() { ?>
 	// 	}
 	// });
 
+	
 	jQuery( document ).ready(function() {
+		
 
 		/* Add overflow scroll div to tables on small screens. */
 		jQuery('table').wrapAll('<div class="table-scroll">');

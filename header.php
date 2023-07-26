@@ -33,7 +33,7 @@
                 display: block;
                 width: 100%;
                 height: 100%;
-                background: #21603e url('<?php echo get_template_directory_uri();?>/images/loading.svg') no-repeat center;
+                background: #09234b url('<?php echo get_template_directory_uri();?>/images/loading.svg') no-repeat center;
                 position: fixed;
                 top: 0;
                 left: 0;
@@ -53,3 +53,13 @@
 	<header id="masthead" class="site-header">
 		<?php get_template_part('inc/header/nav-logo'); ?>
 	</header><!-- #masthead -->
+
+    <script>
+    /*
+		FOUC: Remove body pseudo element on page load.
+		This is part of the method used to avoid the Flash Of Unstyled Content.
+	*/
+	jQuery(window).load(function () {
+		jQuery('body').removeAttr('id');   
+	});
+    </script>
