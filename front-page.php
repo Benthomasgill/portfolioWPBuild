@@ -44,7 +44,7 @@ get_header();
         <div class="slide">
             <div class="ct-flex slider-block slider-block-white">
                 <div class="ct-1-2">
-                    <img style="max-width:100%;" src="https://placehold.co/600x400">
+                    <img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/inawe.webp">
                 </div>
                 <div class="ct-1-2 slider-text">
                     <h3><strong>In Awe Australia</strong><br>
@@ -75,13 +75,13 @@ get_header();
                 </p>
             </div>
             <div class="ct-1-2">
-                <img style="max-width:100%;" src="https://placehold.co/600x400">
+                <img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/taggroup.webp">
             </div>
         </div>
         <div class="slide">
         <div class="ct-flex slider-block slider-block-white">
             <div class="ct-1-2">
-                <img style="max-width:100%;" src="https://placehold.co/600x400">
+                <img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/hushpuppies.webp">
             </div>
             <div class="ct-1-2 slider-text">
                 <h3><strong>Hush Puppies</strong><br>
@@ -103,16 +103,15 @@ get_header();
         </div>
         <div class="ct-flex slider-block">
             <div class="ct-1-2 second-block slider-text">
-                <h3><strong>Tag Finance Group</strong><br>
-                Website Build<br>
-                Wordpress
+                <h3><strong>SALT Property Group</strong><br>
+                Site Redesign and Project Management
                 </h3>
                 <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception. <br><br>
                 I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
                 </p>
             </div>
             <div class="ct-1-2">
-                <img style="max-width:100%;" src="https://placehold.co/600x400">
+                <img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/SALT.webp">
             </div>
         </div>
     </div>
@@ -125,21 +124,23 @@ get_header();
     <div class="the_rest">
         <h2>And The Rest...</h2>    
         <div class="ct-flex">
-            <div class="ct-1-5"><img alt="Shoes and Sox" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
-            <div class="ct-1-5"><img alt="" class="img" style="max-width:100%;" src="https://placehold.co/600x400"></div>
+            <div class="ct-1-5"><img alt="Shoes and Sox" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sns.webp"></div>
+            <div class="ct-1-5"><img alt="All Used Equipmemt" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/allused.webp"></div>
+            <div class="ct-1-5"><img alt="CDS Panel and Paint" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/cds.webp"></div>
+            <div class="ct-1-5"><img alt="Clarks" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/clarks.webp"></div>
+            <div class="ct-1-5"><img alt="Elka Collective" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elka.webp"></div>
+            <div class="ct-1-5"><img alt="Elwood" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elwood.webp"></div>
+            <div class="ct-1-5"><img alt="Helena Valley" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/helenaValley.webp"></div>
+            <div class="ct-1-5"><img alt="Hush Puppies" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/hushpuppies.webp"></div>
+            <div class="ct-1-5"><img alt="Julius Marlow" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/jm.webp"></div>
+            <div class="ct-1-5"><img alt="Jungle Flora and Co" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/jungle.webp"></div>
+            <div class="ct-1-5"><img alt="Parrys" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/parrys.webp"></div>
+            <div class="ct-1-5"><img alt="Perth Glory" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/perthglory.webp"></div>
+            <div class="ct-1-5"><img alt="Providence Lifestyle" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/provmandurah.webp"></div>
+            <div class="ct-1-5"><img alt="Superdry" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sd.webp"></div>
+            <div class="ct-1-5"><img alt="Sharkbay Dive" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sharkbay.webp"></div>
+            <div class="ct-1-5"><img alt="Shoe Warehouse" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/swh.webp"></div>
+            <div class="ct-1-5"><img alt="Volley" class="img" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/volley.webp"></div>
         </div>
     </div>
 
