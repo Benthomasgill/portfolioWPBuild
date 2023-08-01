@@ -111,13 +111,30 @@
         padding: 10px 15px;
     }
 }
+.email-background {
+    background-image: url("./images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .email {
+        max-width: 1200px;
+        margin: 0px auto;
+        margin-top: 220px;
+        .ct-1-2 {
+            text-align: right;
+            h3 {
+                font-size: 1.7em;
+            }
+            p {
+                padding-top: 20px;
+            }
+        }
+    }
+}
 
-.email {
-    max-width: 1200px;
-    margin: 0px auto;
-    margin-top: 220px;
+.platforms-block {
+    background-color: #d4e4ff;
     .ct-1-2 {
-        text-align: right;
         h3 {
             font-size: 1.7em;
         }

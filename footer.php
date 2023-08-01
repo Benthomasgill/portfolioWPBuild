@@ -11,7 +11,7 @@
 
 ?>
 	<footer id="colophon" class="site-footer">
-		<div class="ct-flex footer-container">
+		<!-- <div class="ct-flex footer-container">
 			<div class="ct-20">
 				<ul>
 					<li><strong>Footer Header 1</strong></li>
@@ -51,7 +51,7 @@
 				Phone: <?php echo primary_details()['phone']; ?>
 				</p>
 			</div>
-		</div>
+		</div> -->
 
 
 		<div class="site-info">

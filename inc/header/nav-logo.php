@@ -17,6 +17,7 @@
                         'container'     => ''
                         ) );
                     ?>
+                    <li></li>
                 </ul>
             </nav>
 
@@ -49,9 +50,9 @@
         </div>
 
         <div class="social-block">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.svg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/instagram.svg">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.svg">
+            <a target="_new" href="https://www.facebook.com/ben.thomasgill"><img alt="Ben Thomas-Gill's Facebook" src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.svg"></a>
+            <a target="_new" href="https://www.instagram.com/ben_thomasgill/"><img alt="Ben Thomas-Gill's Instagram" src="<?php echo get_template_directory_uri(); ?>/images/icons/instagram.svg"></a>
+            <a target="_new" href="https://www.linkedin.com/in/ben-thomas-gill"><img alt="Ben Thomas-Gill's Linkedin" src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.svg"></a>
         </div>
     </div>
 </div>
