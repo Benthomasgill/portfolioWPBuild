@@ -113,14 +113,16 @@
 }
 .email-background {
     background-image: url("./images/background.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: -150px;
+    background-color: #d4e4ff;
     .email {
         max-width: 1200px;
         margin: 0px auto;
-        margin-top: 220px;
+        margin-top: 90px;
         .ct-1-2 {
+            padding-top: 160px;
             text-align: right;
             h3 {
                 font-size: 1.7em;
@@ -134,12 +136,22 @@
 
 .platforms-block {
     background-color: #d4e4ff;
-    .ct-1-2 {
-        h3 {
-            font-size: 1.7em;
+    .container { 
+        padding: 100px 0px;
+        .ct-1-2 {
+            h3 {
+                font-size: 1.7em;
+            }
+            p {
+                padding-top: 20px;
+            }
         }
-        p {
-            padding-top: 20px;
+        .logos {
+            padding: 0px 20px;
+            img {
+                max-width: 120px;
+                padding: 20px;
+            }
         }
     }
 }
@@ -175,4 +187,45 @@
 .alt-wrap:hover > p.alt { 
     opacity: 1; 
     transition-delay: 0s;
+}
+
+.skills-block {
+    padding: 120px 40px;
+    max-width: 1260px;
+    margin: auto;
+    h3 {
+        text-align: center;
+        display: block;
+        font-size: 1.7em;
+        margin: 20px auto;
+
+        span {
+            text-align: center;
+            background-color: #031f8e;
+            color: #fff;
+            max-width: max-content;
+            padding: 5px 15px;
+            line-height: 39px;
+        }
+    }
+    p {
+        text-align: center;
+        margin-top: 40px; 
+    }
+}
+
+.chat-block {
+    background-color: rgb(24, 6, 72);
+    color: #fff;
+    padding: 120px 0px;
+    h3 {
+        text-align: center;
+        font-size: 1.7em;
+    }
+    p {
+        margin-top: 20px;
+        text-align: center;
+        line-height: 32px;
+        font-size: 1.1em;
+    }
 }

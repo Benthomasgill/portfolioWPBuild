@@ -172,7 +172,7 @@ get_header();
     <div class="container">
         <div class="ct-flex">
             <div class="ct-1-2">
-                <div class="ct-flex">
+                <div class="ct-flex logos">
                     <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/wp.png"></div>
                     <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/shopify.png"></div>
                     <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/bigCommerce.png"></div>
@@ -190,15 +190,18 @@ get_header();
 </div>
 
 <div class="skills-block">
-    <h3>Nunchuck Skills, Bow Hunting Skills, Computer Hacking Skills...</h3>
-    <p>During my time as a dev I’ve been tasked with setting up tools like Google Tag Manager, and the now retried Google Optimize. I’m keenly interested in A/B testing, the science of creating an amazing user experiences, optimising sales funnels and generally asking why?<br><br>
-    I have also recently started to dip my toe into the world of SEO, and am greatly enjoying identifying oppurtunties and implementing improvments.</p>
+    <h3>
+        <span class="first">Nunchuck Skills, Bow Hunting Skills,</span><br>
+        <span class="second">Computer Hacking Skills...</span>
+    </h3>
+    <p>During my time as a dev I’ve been tasked with setting up tools like Google Tag Manager, and the now retired Google Optimize. I’m keenly interested in A/B testing, the science of creating an amazing user experiences, optimising sales funnels and generally asking why?<br><br>
+    I have also recently started to dip my toe into the world of SEO, and am greatly enjoying identifying oppurtunties and implementing improvements.</p>
 </div>
 
 <div class="chat-block">
-    <h3>Want to Have a Chat About a Project or Better Yet Want me as Part of Your Team?</h3>
-    <p>Email: contact@benthomasgill.net<br>
-       Phone: 0433359760
+    <h3>Want to Have a Chat About a Project or <br>Better Yet Want me as Part of Your Team?</h3>
+    <p><strong>Email:</strong> contact@benthomasgill.net<br>
+       <strong>Phone:</strong> 0433359760
     </p>
 </div>
 
