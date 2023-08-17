@@ -8,10 +8,13 @@ get_header();
 
 <div class="homepage-hero ">
     <div class="hero-overlay-text">
-        <p><span class="front">Hello I'm Ben Thomas-Gill <br>I'm a Front-End Dev.</span><br>
+        <p class="hello">Hello, I'm</p>
+        <p class="p-front"><span class="front">Ben Thomas-Gill <br>I build for the web.</span><br>
         </p>
-        <a class="cta"><svg><rect x="0" y="0" fill="none" width="180" height="55" /></svg>Get In Touch</a>
+        <p>I'm a Front-End Developer, Web Designer, Digital Project Manager, SEO Enthusiast & UI/UX student.</p>
+        <a href="#featured-products" class="cta"><svg><rect x="0" y="0" fill="none" width="180" height="55" /></svg>View My Work</a>
     </div>
+
 
     <!-- Grid to target the add squares function -->
     <div class="grid"></div>
@@ -30,7 +33,7 @@ get_header();
     </div>
 </div>
 
-<div class="colour-banner">
+<div id="featured-products" class="colour-banner">
     <span class="one"></span>
     <span class="two"></span>
     <span class="three"></span>
@@ -51,8 +54,8 @@ get_header();
                     Website Design, Co-build, SEO<br>
                     Woocommerce & Wordpress
                     </h3>
-                    <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception.<br><br>
-                    I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
+                    <p>In Awe Australia is an in-house brand I was lucky enough to help build from the brands inception.<br><br>
+                    I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analytics tools.
                     </p>
                 </div>
             </div>
@@ -64,7 +67,7 @@ get_header();
                 <span class="five"></span>
             </div>
         </div>
-        <div class="ct-flex slider-block">
+        <div id="right" class="left ct-flex slider-block">
             <div class="ct-1-2 second-block slider-text">
                 <h3><strong>Tag Finance Group</strong><br>
                 Website Build<br>
@@ -107,7 +110,7 @@ get_header();
                 Site Redesign and Project Management
                 </h3>
                 <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception. <br><br>
-                I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
+                I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analytics tools.
                 </p>
             </div>
             <div class="ct-1-2">
@@ -173,12 +176,12 @@ get_header();
         <div class="ct-flex">
             <div class="ct-1-2">
                 <div class="ct-flex logos">
-                    <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/wp.png"></div>
-                    <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/shopify.png"></div>
-                    <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/bigCommerce.png"></div>
-                    <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/wix.png"></div>
-                    <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/magento.png"></div>
-                    <div class="ct-1-3"><img alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/squarespace.png"></div>
+                    <div class="ct-1-3"><img title="Wordpress" alt="Wordpress" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/wp.png"></div>
+                    <div class="ct-1-3"><img title="Shopify" alt="Shopify" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/shopify.png"></div>
+                    <div class="ct-1-3"><img title="BigCommerce" alt="BigCommerce" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/bigCommerce.png"></div>
+                    <div class="ct-1-3"><img title="Wix" alt="Wix" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/wix.png"></div>
+                    <div class="ct-1-3"><img title="Magento" alt="Magento" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/magento.png"></div>
+                    <div class="ct-1-3"><img title="Squarespace" alt="Squarespace" src="<?php echo get_template_directory_uri(); ?>/images/platformLogos/squarespace.png"></div>
                 </div>
             </div>
             <div class="ct-1-2">

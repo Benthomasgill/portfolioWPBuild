@@ -26,6 +26,8 @@ img {
 .ct-flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .ct-1-2 {
@@ -216,6 +218,7 @@ img {
   color: $white;
   cursor: pointer;
   overflow: hidden;
+  text-decoration: none;
   svg {
     position: absolute;
     top: 0;

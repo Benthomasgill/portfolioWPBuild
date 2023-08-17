@@ -52,6 +52,7 @@
             <a target="_new" href="https://www.facebook.com/ben.thomasgill"><img alt="Ben Thomas-Gill's Facebook" src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook.svg"></a>
             <a target="_new" href="https://www.instagram.com/ben_thomasgill/"><img alt="Ben Thomas-Gill's Instagram" src="<?php echo get_template_directory_uri(); ?>/images/icons/instagram.svg"></a>
             <a target="_new" href="https://www.linkedin.com/in/ben-thomas-gill"><img alt="Ben Thomas-Gill's Linkedin" src="<?php echo get_template_directory_uri(); ?>/images/icons/linkedin.svg"></a>
+            <a target="_new" href="https://github.com/Benthomasgill"><img alt="Ben Thomas-Gill's Github" src="<?php echo get_template_directory_uri(); ?>/images/icons/github.svg"></a>
         </div>
     </div>
 </div>
