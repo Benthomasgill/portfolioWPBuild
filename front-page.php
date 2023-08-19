@@ -67,7 +67,7 @@ get_header();
                 <span class="five"></span>
             </div>
         </div>
-        <div id="right" class="left ct-flex slider-block">
+        <div class="ct-flex slider-block rev-slider">
             <div class="ct-1-2 second-block slider-text">
                 <h3><strong>Tag Finance Group</strong><br>
                 Website Build<br>
@@ -104,7 +104,7 @@ get_header();
                 <span class="five"></span>
             </div>
         </div>
-        <div class="ct-flex slider-block">
+        <div class="ct-flex slider-block rev-slider">
             <div class="ct-1-2 second-block slider-text">
                 <h3><strong>SALT Property Group</strong><br>
                 Site Redesign and Project Management

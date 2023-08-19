@@ -32,7 +32,7 @@
                 </div>
             </div> -->
 
-            <div class="mobile-display">
+            <!-- <div class="mobile-display">
                 <span onclick="revealMenuFunction()" class="toggle-nav">
                     <span class="menu-01"></span>
                     <span class="menu-02"></span>
@@ -40,7 +40,7 @@
                 </span>
                 <?php get_template_part('inc/header/mobile-nav'); ?>
                 
-            </div>
+            </div> -->
 
         </div>
 

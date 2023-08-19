@@ -1,8 +1,10 @@
 .social-block {
     display: flex;
-    margin-left: 100px;
     max-height: 25px;
-    margin-top: 15px;
+    margin: 16px 0px 0px -30px;
+    @include breakpoint(md) {
+        margin: 15px 0px 0px 100px;
+    }
     img {
         min-width: 18px;
         min-height: 29px;
