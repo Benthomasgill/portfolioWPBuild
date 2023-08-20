@@ -22,7 +22,7 @@ get_header();
 
 <div class="ct-flex intro-block">
     <div class="ct-1-2">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/Ben-Thomas-Gill.png">
+        <img style="clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 47%, 79% 91%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);" src="<?php echo get_template_directory_uri(); ?>/images/Ben-Thomas-Gill.png">
     </div>
     <div class="ct-1-2">
         <h2>About me.</h2><br>
@@ -89,7 +89,7 @@ get_header();
             <div class="ct-1-2 slider-text">
                 <h3><strong>Hush Puppies</strong><br>
                 Campaign Pages Build<br>
-                Big Commerce
+                BigCommerce
                 </h3>
                 <p>The Hush Puppies Community pages were a great project around the brand's sustainability focus. Its designs utilised a news article design with custom font and tricky div layouts to be built.<br><br>
                 I enjoyed creating these pages not only for the different designs but also because of the great concept they represented.
@@ -107,7 +107,7 @@ get_header();
         <div class="ct-flex slider-block rev-slider">
             <div class="ct-1-2 second-block slider-text">
                 <h3><strong>SALT Property Group</strong><br>
-                Site Redesign and Project Management
+                Redesign/Project Management
                 </h3>
                 <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception. <br><br>
                 I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analytics tools.
@@ -127,26 +127,26 @@ get_header();
     <div class="the_rest">
         <h2>And The Rest...</h2>    
         <div class="ct-flex">
-            <div class="ct-1-5"><img alt="Shoes and Sox" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sns.webp"></div>
-            <div class="ct-1-5"><img alt="All Used Equipmemt" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/allused.webp"></div>
-            <div class="ct-1-5"><img alt="CDS Panel and Paint" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/cds.webp"></div>
-            <div class="ct-1-5"><img alt="Clarks" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/clarks.webp"></div>
-            <div class="ct-1-5"><img alt="Elka Collective" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elka.webp"></div>
-            <div class="ct-1-5"><img alt="Elwood" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elwood.webp"></div>
-            <div class="ct-1-5"><img alt="Helena Valley Resort" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/helenaValley.webp"></div>
-            <div class="ct-1-5"><img alt="Hush Puppies" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/hushpuppies.webp"></div>
-            <div class="ct-1-5"><img alt="Julius Marlow" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/jm.webp"></div>
-            <div class="ct-1-5"><img alt="Jungle Flora and Co" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/jungle.webp"></div>
-            <div class="ct-1-5"><img alt="Parrys Carpets" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/parrys.webp"></div>
-            <div class="ct-1-5"><img alt="Perth Glory Store" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/perthglory.webp"></div>
-            <div class="ct-1-5"><img alt="Providence Lifestyle" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/provmandurah.webp"></div>
-            <div class="ct-1-5"><img alt="Sharkbay Dive" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sharkbay.webp"></div>
-            <div class="ct-1-5"><img alt="Superdry" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sd.webp"></div>
-            <div class="ct-1-5"><img alt="Shoe Warehouse" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/swh.webp"></div>
-            <div class="ct-1-5"><img alt="Volley" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/volley.webp"></div>
-            <div class="ct-1-5"><img alt="ELWD Workwear" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elwd.webp"></div>
-            <div class="ct-1-5"><img alt="ARAS Industrial Abseiling" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/aras.webp"></div>
-            <div class="ct-1-5"><img alt="Sharkbay 4WD" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/4wd.webp"></div>
+            <div class="ct-1-5"><a href="https://shoesandsox.com.au/" target="_new"><img alt="Shoes and Sox" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sns.webp"></a></div>
+            <div class="ct-1-5"><a href="https://www.allused.com.au/" target="_new"><img alt="All Used Equipmemt" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/allused.webp"></a></div>
+            <div class="ct-1-5"><a href="https://cdspanel.com.au/" target="_new"><img alt="CDS Panel and Paint" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/cds.webp"></a></div>
+            <div class="ct-1-5"><a href="https://clarks.com.au/" target="_new"><img alt="Clarks" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/clarks.webp"></a></div>
+            <div class="ct-1-5"><a href="https://elkacollective.com/" target="_new"><img alt="Elka Collective" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elka.webp"></a></div>
+            <div class="ct-1-5"><img alt="Elwood (Site Retired)" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elwood.webp"></div>
+            <div class="ct-1-5"><a href="https://helenavalleylifestyle.com.au/" target="_new"><img alt="Helena Valley Resort" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/helenaValley.webp"></a></div>
+            <div class="ct-1-5"><a href="https://hushpuppies.com.au/" target="_new"><img alt="Hush Puppies" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/hushpuppies.webp"></a></div>
+            <div class="ct-1-5"><a href="https://juliusmarlow.com.au/" target="_new"><img alt="Julius Marlow" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/jm.webp"></a></div>
+            <div class="ct-1-5"><a href="https://junglefloraandco.com/" target="_new"><img alt="Jungle Flora and Co" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/jungle.webp"></a></div>
+            <div class="ct-1-5"><a href="https://parryscarpets.com.au/" target="_new"><img alt="Parrys Carpets" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/parrys.webp"></a></div>
+            <div class="ct-1-5"><a href="https://membership.perthglory.com.au/" target="_new"><img alt="Perth Glory Store" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/perthglory.webp"></a></div>
+            <div class="ct-1-5"><a href="https://providencelifestyle.com.au/" target="_new"><img alt="Providence Lifestyle" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/provmandurah.webp"></a></div>
+            <div class="ct-1-5"><img alt="Sharkbay Dive (Site Retired)" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sharkbay.webp"></div>
+            <div class="ct-1-5"><a href="https://superdry.com.au/" target="_new"><img alt="Superdry" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/sd.webp"></a></div>
+            <div class="ct-1-5"><a href="https://shoewarehouse.com.au/" target="_new"><img alt="Shoe Warehouse" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/swh.webp"</a></div>
+            <div class="ct-1-5"><a href="https://volley.com.au/" target="_new"><img alt="Volley" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/volley.webp"></a></div>
+            <div class="ct-1-5"><a href="https://elwd.com.au/" target="_new"><img alt="ELWD Workwear" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/elwd.webp"></a></div>
+            <div class="ct-1-5"><a href="https://www.arasgroup.com.au/" target="_new"><img alt="ARAS Industrial Abseiling" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/aras.webp"></a></div>
+            <div class="ct-1-5"><img alt="Sharkbay 4WD (Site Retired)" class="img" src="<?php echo get_template_directory_uri(); ?>/images/screengrabs/4wd.webp"></div>
         </div>
     </div>
 
@@ -163,7 +163,7 @@ get_header();
     <div class="ct-flex email">
         <div class="ct-1-2">
             <h3>Email Marketing Expert</h3>
-            <p>I have built way too many marketing emails in Mailchimp, Campaign Monitor & Salesforce during my time as a front-end developer. As a result, I have become a stickler for keeping up with email standards and unfortunately a bit of an expert in the use of tables</p>
+            <p>I have built countless marketing emails in <strong>Mailchimp</strong>, <strong>Campaign Monitor</strong> & <strong>Salesforce</strong> during my time as a front-end developer. <br><br>From the design, to the build, all the way down to the open and click through rate. I have a keen interest in email marketing and believe it's still a valuable part of any brands marketing strategy.</p>
         </div>
         <div class="ct-1-2">
             <img alt="Email marketing on three different devices" src="<?php echo get_template_directory_uri(); ?>/images/emailMockup.png">
@@ -186,7 +186,7 @@ get_header();
             </div>
             <div class="ct-1-2">
                 <h3>So Many Platforms</h3>
-                <p>Although I started my development journey working with Magento and BigCommerce I’ve come across, been asked to fix, and eventually found solutions to problems on a ton of different CMS. Most recently I’ve been working with Wordpress, Shopify and WooCommerce.</p>
+                <p>Although I started my development journey working with <strong>Magento</strong> and <strong>BigCommerce</strong>. Most recently I’ve been working with <strong>Wordpress</strong>, <strong>Shopify</strong> and <strong>WooCommerce</strong>.</p>
             </div>
         </div>
     </div>
@@ -201,11 +201,14 @@ get_header();
     I have also recently started to dip my toe into the world of SEO, and am greatly enjoying identifying oppurtunties and implementing improvements.</p>
 </div>
 
-<div class="chat-block">
+
+<div class="homepage-contact">
+    <div class="chat-block">
     <h3>Want to Have a Chat About a Project or <br>Better Yet Want me as Part of Your Team?</h3>
     <p><strong>Email:</strong> contact@benthomasgill.net<br>
        <strong>Phone:</strong> 0433359760
     </p>
+</div>
 </div>
 
 <script>

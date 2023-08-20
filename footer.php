@@ -54,12 +54,12 @@
 		</div> -->
 
 
-		<div class="site-info">
+		<!-- <div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'customtheme' ) ); ?>">
 
 			</a>
 			<span class="sep">© Copyright <?php echo date('Y'); ?>  | Custom Theme By <a href="http://benthomasgill.com.au">Ben Thomas-Gill</a></span>
-		</div><!-- .site-info -->
+		</div>.site-info -->
 
 		<!--/ Start Local Business Schema /-->
 		<div itemscope itemtype="https://schema.org/LocalBusiness">
