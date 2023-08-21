@@ -22,14 +22,14 @@ get_header();
 
 <div class="ct-flex intro-block">
     <div class="ct-1-2">
-        <img style="clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 47%, 79% 91%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);" src="<?php echo get_template_directory_uri(); ?>/images/Ben-Thomas-Gill.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/benthomasgill.jpg">
     </div>
     <div class="ct-1-2">
         <h2>About me.</h2><br>
         <p>Over the past six years, I have established myself as a front-end developer with a diverse and enriching professional journey. My career began at <a target="_new" href="https://www.brandcollective.com.au/">Brand Collective</a>, an esteemed Fashion Apparel company, where I honed my expertise working across various projects.<br><br>
            During my tenure, I devoted my efforts to constructing, enhancing, and managing ten distinct <strong>Bigcommerce</strong> eCommerce websites. Additionally, I took charge of crafting marketing and automated emails using platforms such as <strong>Salesforce, Mailchimp, Campaign Monitor,</strong> and <strong>Mandrill</strong>.<br><br>
            Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. My responsibilities encompass the creation and maintenance of bespoke <strong>Wordpress</strong> and <strong>Shopify</strong> sites, along with the development of impactful marketing emails. Notably, I have taken on a leadership role, successfully project managing the development team for the past six months.<br><br>
-           As part of my continuous professional growth, I have ventured into the realms of SEO and UX, expanding my skill set and contributing further value to the projects I undertake.</p>
+        </p>
     </div>
 </div>
 
@@ -43,7 +43,9 @@ get_header();
 
 <div class="coloured-background">
     <div class="container featured-projects">
-        <h2 class="headline">Featured Projects</h2>
+        <div class="headline">
+            <h2 class="headline-copy">Featured Projects</h2>
+        </div>
         <div class="slide">
             <div class="ct-flex slider-block slider-block-white">
                 <div class="ct-1-2">
@@ -123,7 +125,7 @@ get_header();
 
 <!-- <p class="wavy-text"></p> -->
 
-<div class="container">
+<div class="container-the-rest">
     <div class="the_rest">
         <h2>And The Rest...</h2>    
         <div class="ct-flex">
