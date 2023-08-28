@@ -1,7 +1,7 @@
 .social-block {
     display: flex;
     max-height: 25px;
-    margin: 16px 0px 0px -30px;
+    margin: 16px 10px 0px -30px;
     @include breakpoint(md) {
         margin: 15px 0px 0px 100px;
     }

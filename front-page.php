@@ -207,8 +207,8 @@ get_header();
 <div class="homepage-contact">
     <div class="chat-block">
     <h3>Want to Have a Chat About a Project or <br>Better Yet Want me as Part of Your Team?</h3>
-    <p><strong>Email:</strong> contact@benthomasgill.net<br>
-       <strong>Phone:</strong> 0433359760
+    <p>Email: <strong><a href="mailto:contact@benthomasgill.net">contact@benthomasgill.net</a></strong><br>
+       Phone: <strong><a href="tel:0433359760">0433359760</a><strong>
     </p>
 </div>
 </div>
