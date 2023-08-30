@@ -96,7 +96,7 @@
     img {
         clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
         text-align: right;
-        margin: 0px auto 30px;
+        margin: 0px auto 50px;
         display: block;
         max-width: 270px;
         @include breakpoint(sm) {
@@ -198,6 +198,8 @@
         h3 {
             text-align: center;
             font-size: 1.5em;
+            max-width: 90%;
+            margin: auto;
             @include breakpoint(sm) {
                 font-size: 1.6em;
             }
@@ -211,6 +213,7 @@
         a {
             color: #fff;
             text-decoration: none;
+            font-family: monospace;
         }
     }
 
@@ -358,7 +361,7 @@
 }
 
 .skills-block {
-    padding: 20px 40px 30px;
+    padding: 20px 20px 30px;
     @include breakpoint(sm) {
         padding: 120px 40px;
     }
@@ -400,68 +403,280 @@
         position: absolute;
         background-color: #070068;
         width: fit-content;
-        padding: 30px 50px;
-        top: 85%;
+        padding: 44px 55px;
+        top: 55%;
         border-radius: 13px;
-        right: 10%;
-        p {
-            color: #fff;
-            font-family: monospace;
-            text-align: center;
-            font-weight: 900;
-            line-height: 23px;
-            font-size: 1.3em;
+        right: 0%;
+        @include breakpoint(sm) {
+            top: 85%;
+            right: 10%;
+            top: 65%;
+            right: 20%;
+        }
+        @include breakpoint(md) {
+            padding: 36px 44px;
+        }
+        a {
+            text-decoration: none;
+            p {
+                color: #fff;
+                font-family: monospace;
+                text-align: center;
+                font-weight: 900;
+                line-height: 22px;
+                font-size: 1.2em;
+                @include breakpoint(md) {
+                    line-height: 27px;
+                    font-size: 1.5em;
+                }
+            }
         }
     }
 }
 
-.star-1, .star-4, .star-7 {
+.star-1 {
+    top: 5px;
+    left: 5px;
+    @include breakpoint(sm) {
+        top: 0px;
+    }
+    @include breakpoint(md) {
+        top: 5px;
+    }
+}
+
+.star-2 {
+    top: 5px;
+    left: 55px;
+    @include breakpoint(sm) {
+        top: 0px;
+    }
+    @include breakpoint(md) {
+        top: 5px;
+    }
+}
+
+.star-3 {
+    top: 5px;
+    left: 105px;
+    @include breakpoint(sm) {
+        top: 0px;
+    }
+    @include breakpoint(md) {
+        top: 5px;
+    }
+}
+
+.star-4 {
+    top: 5px;
+    left: 155px;
+    @include breakpoint(md) {
+        top: 0px;
+    }
+    @include breakpoint(md) {
+        top: 5px;
+    }
+}
+
+.star-5 {
+    top: 50px;
+    left: 155px;
+    @include breakpoint(sm) {
+        top: 45px;
+    }
+    @include breakpoint(md) {
+        top: 50px;
+    }
+}
+
+.star-6 {
+    top: 95px;
+    left: 155px;
+    @include breakpoint(sm) {
+        top: 85px;
+    }
+    @include breakpoint(md) {
+        top: 95px;
+    }
+}
+
+.star-7 {
+    top: 95px;
+    left: 105px;
+    @include breakpoint(sm) {
+        top: 85px;
+    }
+    @include breakpoint(md) {
+        top: 95px;
+    }
+}
+
+.star-8 {
+    top: 95px;
+    left: 55px;
+    @include breakpoint(sm) {
+        top: 85px;
+    }
+    @include breakpoint(md) {
+        top: 95px;
+    }
+}
+
+.star-9 {
+    top: 95px;
+    left: 5px;
+    @include breakpoint(sm) {
+        top: 85px;
+    }
+    @include breakpoint(md) {
+        top: 95px;
+    }
+}
+
+.star-10 {
+    top: 50px;
+    left: 5px;
+    @include breakpoint(sm) {
+        top: 45px;
+    }
+    @include breakpoint(md) {
+        top: 50px;
+    }
+}
+
+.star-1, .star-6 {
     color: #fff;
     animation: blink 1s steps(1, end) infinite;
+    position: absolute;
 }
   
 @keyframes blink {
     0% {
+        opacity: 0.5;
+    }
+    19% {
         opacity: 1;
     }
-    50% {
-        opacity: 0;
+    36% {
+        opacity: 1;
+    }
+    53% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
     }
     100% {
-        opacity: 1;
+        opacity: 0;
     }
 }
 
-.star-2, .star-5, .star-8 {
+.star-2, .star-7 {
     color: #fff;
     animation: blink2 1s steps(1, end) infinite;
+    position: absolute;
 }
 
 @keyframes blink2 {
     0% {
-        opacity: 0;
-    }
-    50% {
         opacity: 1;
     }
-    100% {
-        opacity: 0;
+    19% {
+        opacity: 0.5;
     }
-}
-
-.star-3, .star-6, .star-9 {
-    color: #fff;
-    animation: blink2 1s steps(1, end) infinite;
-}
-
-@keyframes blink2 {
-    20% {
+    36% {
+        opacity: 1;
+    }
+    53% {
         opacity: 1;
     }
     70% {
-        opacity: 0;
+        opacity: 1;
     }
-    90% {
+    100% {
         opacity: 1;
     }
 }
+
+.star-3, .star-8 {
+    color: #fff;
+    animation: blink3 1s steps(1, end) infinite;
+    position: absolute;
+}
+
+@keyframes blink3 {
+    0% {
+        opacity: 1;
+    }
+    19% {
+        opacity: 1;
+    }
+    36% {
+        opacity: 0.5;
+    }
+    53% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.star-4, .star-9 {
+    color: #fff;
+    animation: blink4 1s steps(1, end) infinite;
+    position: absolute;
+}
+
+@keyframes blink4 {
+    0% {
+        opacity: 1;
+    }
+    19% {
+        opacity: 1;
+    }
+    36% {
+        opacity: 1;
+    }
+    53% {
+        opacity: 0.5;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.star-5, .star-10 {
+    color: #fff;
+    animation: blink5 1s steps(1, end) infinite;
+    position: absolute;
+}
+
+@keyframes blink5 {
+    0% {
+        opacity: 1;
+    }
+    19% {
+        opacity: 1;
+    }
+    36% {
+        opacity: 1;
+    }
+    53% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

@@ -24,16 +24,17 @@ get_header();
     <div class="ct-1-2 image-container">
         <img src="<?php echo get_template_directory_uri(); ?>/images/benthomasgill.jpg">
         <div class="cta-block">
-            <div class="star-1">1</div>
-            <div class="star-2">2</div>
-            <div class="star-3">3</div>
-            <div class="star-4">4</div>
-            <div class="star-5">5</div>
-            <div class="star-6">6</div>
-            <div class="star-7">7</div>
-            <div class="star-8">8</div>
-            <div class="star-9">9</div>
-            <p>GET IN<br>TOUCH</p>
+            <div class="star-1"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-2"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-3"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-4"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-5"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-6"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-7"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-8"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-9"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <div class="star-10"><img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/icons/star.svg"></div>
+            <a href="mailto:contact@benthomasgill.net"><p>GET IN<br>TOUCH</p></a>
         </div>
     </div>
     <div class="ct-1-2">
