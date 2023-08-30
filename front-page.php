@@ -21,8 +21,20 @@ get_header();
 </div>
 
 <div class="ct-flex intro-block">
-    <div class="ct-1-2">
+    <div class="ct-1-2 image-container">
         <img src="<?php echo get_template_directory_uri(); ?>/images/benthomasgill.jpg">
+        <div class="cta-block">
+            <div class="star-1">1</div>
+            <div class="star-2">2</div>
+            <div class="star-3">3</div>
+            <div class="star-4">4</div>
+            <div class="star-5">5</div>
+            <div class="star-6">6</div>
+            <div class="star-7">7</div>
+            <div class="star-8">8</div>
+            <div class="star-9">9</div>
+            <p>GET IN<br>TOUCH</p>
+        </div>
     </div>
     <div class="ct-1-2">
         <h2>About me.</h2><br>
@@ -32,6 +44,8 @@ get_header();
         </p>
     </div>
 </div>
+
+
 
 <div id="featured-products" class="colour-banner">
     <span class="one"></span>
@@ -53,7 +67,7 @@ get_header();
                 </div>
                 <div class="ct-1-2 slider-text">
                     <h3><strong>In Awe Australia</strong><br>
-                    Website Design, Co-build, SEO<br>
+                    Website Design, Project Management, Co-build & SEO<br>
                     Woocommerce & Wordpress
                     </h3>
                     <p>In Awe Australia is an in-house brand I was lucky enough to help build from the brands inception.<br><br>
@@ -75,8 +89,7 @@ get_header();
                 Website Build<br>
                 Wordpress
                 </h3>
-                <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception. <br><br>
-                I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analyitcs tools.
+                <p>The Tag Finance Group website was a giant undertaking with over thirty five content pages, a huge collecton of blog posts and a large collection of custom forms using <strong>Gravity Forms</strong> to validate and collect leads.
                 </p>
             </div>
             <div class="ct-1-2">
@@ -86,15 +99,15 @@ get_header();
         <div class="slide">
         <div class="ct-flex slider-block slider-block-white">
             <div class="ct-1-2">
-                <img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/hushpuppies.webp">
+                <img title="Hush Puppies Landing Page (retired)" alt="Hush Puppies Sustainability Landing Pages" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/hushpuppies.webp">
             </div>
             <div class="ct-1-2 slider-text">
                 <h3><strong>Hush Puppies</strong><br>
                 Campaign Pages Build<br>
                 BigCommerce
                 </h3>
-                <p>The Hush Puppies Community pages were a great project around the brand's sustainability focus. Its designs utilised a news article design with custom font and tricky div layouts to be built.<br><br>
-                I enjoyed creating these pages not only for the different designs but also because of the great concept they represented.
+                <p>The Hush Puppies Community pages were a great project around the brand's sustainability focus. It's designs utilised a news article layout and imported custom fonts.<br><br>
+                   These were created using the front-end framework <strong>UIKit</strong>, and built into <strong>BigCommerce</strong> custom pages.  
                 </p>
             </div>
         </div>
@@ -111,12 +124,12 @@ get_header();
                 <h3><strong>SALT Property Group</strong><br>
                 Redesign/Project Management
                 </h3>
-                <p>In Awe Australia is an in house brand I was lucky enough to help build from the brands inception. <br><br>
-                I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analytics tools.
+                <p>I managed this project from end to end, running the initial client meetings, through to delivering and launching the final product.<br><br>
+                   Working with a third-party property evaluation software company to provide additional functionality, we rolled out a site the client was very happy with.
                 </p>
             </div>
             <div class="ct-1-2">
-                <img style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/SALT.webp">
+                <a target="_new" href="https://saltproperty.com.au/"><img alt="Salt Property Group Website" style="max-width:100%;" src="<?php echo get_template_directory_uri(); ?>/images/SALT.webp"></a>
             </div>
         </div>
     </div>
@@ -165,7 +178,7 @@ get_header();
     <div class="ct-flex email">
         <div class="ct-1-2">
             <h3>Email Marketing Expert</h3>
-            <p>I have built countless marketing emails in <strong>Mailchimp</strong>, <strong>Campaign Monitor</strong> & <strong>Salesforce</strong> during my time as a front-end developer. <br><br>From the design, to the build, all the way down to the open and click through rate. I have a keen interest in email marketing and believe it's still a valuable part of any brands marketing strategy.</p>
+            <p>I have built countless marketing emails in <strong>Mailchimp</strong>, <strong>Campaign Monitor</strong> & <strong>Salesforce</strong> during my time as a front-end developer. <br><br>From the design, to the build, all the way down to reporting on open and click through rates. I have a keen interest in email marketing and believe it's still a valuable part of any brands marketing strategy.</p>
         </div>
         <div class="ct-1-2">
             <img alt="Email marketing on three different devices" src="<?php echo get_template_directory_uri(); ?>/images/emailMockup.png">
@@ -199,7 +212,7 @@ get_header();
         <span class="first">Nunchuck Skills, Bow Hunting Skills,</span><br>
         <span class="second">Computer Hacking Skills...</span>
     </h3>
-    <p>During my time as a dev I’ve been tasked with setting up tools like Google Tag Manager, and the now retired Google Optimize. I’m keenly interested in A/B testing, the science of creating an amazing user experiences, optimising sales funnels and generally asking why?<br><br>
+    <p>During my time as a dev I’ve been tasked with setting up tools like Google Tag Manager, and the now retired Google Optimize. I’m keenly interested in A/B testing, the science of creating an amazing user experiences and generally asking why?<br><br>
     I have also recently started to dip my toe into the world of SEO, and am greatly enjoying identifying oppurtunties and implementing improvements.</p>
 </div>
 

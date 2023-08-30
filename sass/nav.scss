@@ -109,9 +109,12 @@
     max-width: 1200px;
     display: block;
     margin: auto;
-    position: fixed;
+    position: absolute;
     min-width: 100%;
     z-index: 9999;
+    @include breakpoint(sm) {
+        position: fixed;
+    }
     .header-container {
         width: 100%;
         max-width: 1200px;
