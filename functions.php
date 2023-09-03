@@ -213,6 +213,8 @@ add_action( 'wp_enqueue_scripts', 'theme_scripts_method' );
  /* Tracking */
 function sb_start_head() { ?>
 
+
+
 	/* Import custom font */
 
 	
@@ -280,6 +282,7 @@ function general_scripts() { ?>
 		});
 
 	});
+
 </script>
 <?php }
 add_action('after_wp_footer', 'general_scripts');
