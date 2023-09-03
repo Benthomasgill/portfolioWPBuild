@@ -35,7 +35,7 @@ __        _______ _     ____ ___  __  __ _____   _____ ___    __  ____   __ __  
 
 
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
 		<link rel="profile" href="https://gmpg.org/xfn/11">
@@ -61,9 +61,17 @@ __        _______ _     ____ ___  __  __ _____   _____ ___    __  ____   __ __  
                 z-index: 9999999999999999;
             }
         </style>
+	
+
 
 
 	<?php wp_head(); ?>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>        
+    
+    <!-- Google Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body itemscope="itemscope" itemtype="https://schema.org/WebPage" <?php body_class(); ?> id="fouc">
