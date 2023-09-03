@@ -162,7 +162,7 @@
     @include breakpoint(md) {
         padding: 60px;
     }
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 30px 0px 30px 0px;
     h3 {
         font-size: 1.3em;
         font-weight: 500;
@@ -213,7 +213,7 @@
         a {
             color: #fff;
             text-decoration: none;
-            font-family: monospace;
+            font-family: $heading-font;
         }
     }
 
@@ -298,7 +298,7 @@
         .ct-flex {
             background-color: #fff;
             padding: 60px 50px;
-            border-radius: 25px;
+            border-radius: 30px 0px 30px 0px;
             .ct-1-2 {
                 h3 {
                     font-size: 1.5em;
@@ -361,39 +361,42 @@
 }
 
 .skills-block {
-    padding: 20px 20px 30px;
-    @include breakpoint(sm) {
-        padding: 120px 40px;
-    }
-    max-width: 1260px;
-    margin: auto;
-    h3 {
-        text-align: center;
-        display: block;
-        font-size: 1.5em;
-        background-color: #09244b;
-        padding: 20px 0px;
+    background-image: url("./images/background_image.webp");
+    .skills-content {
+        padding: 20px 20px 30px;
         @include breakpoint(sm) {
-            font-size: 1.6em;
-            background-color: initial;
-            padding: 0px;
+            padding: 120px 40px;
         }
-        margin: 20px auto;
-
-        span {
+        max-width: 1260px;
+        margin: auto;
+        h3 {
             text-align: center;
-            color: #fff;
-            max-width: max-content;
-            padding: 5px 15px;
-            line-height: 39px;
+            display: block;
+            font-size: 1.5em;
+            background-color: #09244b;
+            padding: 20px 0px;
             @include breakpoint(sm) {
-                background-color: #09244b;
+                font-size: 1.6em;
+                background-color: initial;
+                padding: 0px;
+            }
+            margin: 20px auto;
+
+            span {
+                text-align: center;
+                color: #fff;
+                max-width: max-content;
+                padding: 5px 15px;
+                line-height: 39px;
+                @include breakpoint(sm) {
+                    background-color: #09244b;
+                }
             }
         }
-    }
-    p {
-        text-align: center;
-        margin-top: 40px; 
+        p {
+            text-align: center;
+            margin-top: 40px; 
+        }
     }
 }
 
@@ -420,7 +423,7 @@
             text-decoration: none;
             p {
                 color: #fff;
-                font-family: monospace;
+                font-family: $heading-font;
                 text-align: center;
                 font-weight: 900;
                 line-height: 22px;
@@ -680,3 +683,18 @@
 }
 
 
+//Lazy loading styling
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+  
+@keyframes fade {
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+}
