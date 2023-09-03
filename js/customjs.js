@@ -103,3 +103,25 @@ window.onscroll = function (event) {
         nav.style.backgroundColor = '#ffffff00';
     } 
 };
+
+//Lazy loading scripts
+
+const observer = lozad(); // lazy loads elements with default selector as ".lozad"
+observer.observe();
+
+lozad('.lozad', {
+    load: function(el) {
+        el.src = el.dataset.src;
+        el.onload = function() {
+            el.classList.add('fade')
+        }
+    }
+}).observe();
+
+//Projects alt text overlay function
+
+jQuery(".img").wrap('<div class="alt-wrap"/>');
+
+jQuery(".img").each(function() {
+    jQuery(this).after('<p class="alt">' + jQuery(this).attr('alt') + '</p>');
+})
