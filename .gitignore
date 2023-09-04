@@ -2,3 +2,7 @@
 prepros-6.config
 
 style.css
+
+.DS_Store
+
+style.css.map
