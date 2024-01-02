@@ -13,7 +13,7 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
         <p class="hello">Hello, I'm</p>
         <p class="p-front"><span class="front">Ben Thomas-Gill <br>I build for the web.</span><br>
         </p>
-        <p>I'm a Front-End Developer, Web Designer, Digital Project Manager, SEO Enthusiast & UI/UX student.</p>
+        <p>I'm a Digital Project Manager, Front-End Developer, Web Designer, SEO Enthusiast & UI/UX student.</p>
         <a href="#featured-products" class="cta"><svg><rect x="0" y="0" fill="none" width="180" height="55" /></svg>View My Work</a>
     </div>
 
@@ -41,9 +41,9 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
     </div>
     <div class="ct-1-2">
         <h2>About me.</h2><br>
-        <p>Over the past six years, I have established myself as a front-end developer with a diverse and enriching professional journey. My career began at <a target="_new" href="https://www.brandcollective.com.au/">Brand Collective</a>, an esteemed Fashion Apparel company, where I honed my expertise working across various projects.<br><br>
+        <p>Over the past six years, I have established myself as a Digital Project Manager with a diverse and enriching professional journey. My career began at <a target="_new" href="https://www.brandcollective.com.au/">Brand Collective</a>, an esteemed Fashion Apparel company, where I honed my front-end developer skills working across various projects.<br><br>
            During my tenure, I devoted my efforts to constructing, enhancing, and managing ten distinct <strong>Bigcommerce</strong> eCommerce websites. Additionally, I took charge of crafting marketing and automated emails using platforms such as <strong>Salesforce, Mailchimp, Campaign Monitor,</strong> and <strong>Mandrill</strong>.<br><br>
-           Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. My responsibilities encompass the creation and maintenance of bespoke <strong>Wordpress</strong> and <strong>Shopify</strong> sites, along with the development of impactful marketing emails. Notably, I have taken on a leadership role, successfully project managing the development team for the past six months.<br><br>
+           Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. Working remotely I have been tasked with managing a team of developers, making sure our team delivers high quality websites and supporting digital assets.<br><br>
         </p>
     </div>
 </div>
