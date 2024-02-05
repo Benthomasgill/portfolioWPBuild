@@ -43,7 +43,7 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
         <h2>About me.</h2><br>
         <p>Over the past six years, I have established myself as a Digital Project Manager with a diverse and enriching professional journey. My career began at <a target="_new" href="https://www.brandcollective.com.au/">Brand Collective</a>, an esteemed Fashion Apparel company, where I honed my front-end developer skills working across various projects.<br><br>
            During my tenure, I devoted my efforts to constructing, enhancing, and managing ten distinct <strong>Bigcommerce</strong> eCommerce websites. Additionally, I took charge of crafting marketing and automated emails using platforms such as <strong>Salesforce, Mailchimp, Campaign Monitor,</strong> and <strong>Mandrill</strong>.<br><br>
-           Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>, located in Perth. Working remotely I have been tasked with managing a team of developers, making sure our team delivers high quality websites and supporting digital assets.<br><br>
+           Presently, I am an integral part of the <a target="_new" href="https://stormbox.com.au/">Stormbox agency</a>. Working remotely I have been tasked with managing a team of developers, making sure our team delivers high quality websites and supporting digital assets.<br><br>
         </p>
     </div>
 </div>
@@ -63,6 +63,7 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
         <div class="headline">
             <h2 class="headline-copy">Featured Projects</h2>
         </div>
+
         <div class="slide">
             <div class="ct-flex slider-block slider-block-white">
                 <div class="ct-1-2">
@@ -79,17 +80,50 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
                 </div>
             </div>
         </div>
+
         <div class="ct-flex slider-block rev-slider">
             <div class="ct-1-2 second-block slider-text">
-                <h3><strong>Tag Finance Group</strong><br>
-                Website Build<br>
-                Wordpress
+                <h3><strong>PCB Group Phase 1 Launch</strong><br>
+                Project Management<br>
+                
                 </h3>
-                <p>The Tag Finance Group website was a giant undertaking with over thirty five content pages, a huge collecton of blog posts and a large collection of custom forms using <strong>Gravity Forms</strong> to validate and collect leads.
+                <p>This project incorperated the launch of three separate websites (<a target="_new" href="https://pcbcontractors.com/">PCB Contractors</a>, <a target="_new" href="https://moombakipcb.com/">Moombaki PCB</a> & <a target="_new" href="https://pcbwq.com/">PCB Westquay</a>) for our client PCB group. <br><br>It involved coordinating designs and assets for three similar but different business identies each with their own unique visual elements.  
                 </p>
             </div>
             <div class="ct-1-2">
-                <img style="max-width:100%;" alt="Tag Group Finance" class="lozad" data-src="<?php echo get_template_directory_uri(); ?>/images/taggroup.webp">
+                <img style="max-width:100%;" alt="Tag Group Finance" class="lozad" data-src="<?php echo get_template_directory_uri(); ?>/images/PCB.webp">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="ct-flex slider-block slider-block-white">
+                <div class="ct-1-2">
+                    <img style="max-width:100%;" class="lozad" alt="In Awe Australia" data-src="<?php echo get_template_directory_uri(); ?>/images/inawe.webp">
+                </div>
+                <div class="ct-1-2 slider-text">
+                    <h3><strong>In Awe Australia</strong><br>
+                    Website Design, Project Management, Co-build & SEO<br>
+                    Woocommerce & Wordpress
+                    </h3>
+                    <p>In Awe Australia is an in-house brand I was lucky enough to help build from the brands inception.<br><br>
+                    I faced challenges designing, building and adjusting the websites direction based on data collected from hotjar and other analytics tools.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ct-flex slider-block rev-slider">
+            <div class="ct-1-2 second-block slider-text">
+                <h3><strong>SALT Property Group</strong><br>
+                Redesign/Project Management
+                </h3>
+                <p>I managed this project from end to end, running the initial client meetings, through to delivering and launching the final product.<br><br>
+                   Working with a third-party property evaluation software company to provide additional functionality, we rolled out a site the client was very happy with.
+                </p>
+            </div>
+            <div class="ct-1-2">
+                <a target="_new" href="https://saltproperty.com.au/"><img class="lozad" alt="Salt Property Group Website" style="max-width:100%;" data-src="<?php echo get_template_directory_uri(); ?>/images/SALT.webp"></a>
             </div>
         </div>
         <div class="slide">
@@ -110,17 +144,19 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
         </div>
         <div class="ct-flex slider-block rev-slider">
             <div class="ct-1-2 second-block slider-text">
-                <h3><strong>SALT Property Group</strong><br>
-                Redesign/Project Management
+                <h3><strong>Tag Finance Group</strong><br>
+                Website Build<br>
+                Wordpress
                 </h3>
-                <p>I managed this project from end to end, running the initial client meetings, through to delivering and launching the final product.<br><br>
-                   Working with a third-party property evaluation software company to provide additional functionality, we rolled out a site the client was very happy with.
+                <p>The Tag Finance Group website was a giant undertaking with over thirty five content pages, a huge collecton of blog posts and a large collection of custom forms using <strong>Gravity Forms</strong> to validate and collect leads.
                 </p>
             </div>
             <div class="ct-1-2">
-                <a target="_new" href="https://saltproperty.com.au/"><img class="lozad" alt="Salt Property Group Website" style="max-width:100%;" data-src="<?php echo get_template_directory_uri(); ?>/images/SALT.webp"></a>
+                <img style="max-width:100%;" alt="Tag Group Finance" class="lozad" data-src="<?php echo get_template_directory_uri(); ?>/images/taggroup.webp">
             </div>
         </div>
+
+
     </div>
 </div>    
 

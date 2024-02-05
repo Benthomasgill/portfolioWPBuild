@@ -110,7 +110,7 @@
 }
 
 .coloured-background {
-    background-image: linear-gradient(#90b0e7, #ffffff);
+    background-image: linear-gradient(#90b0e7,  #ffffff, #cde0ff, #ffffff);
 }
 
 .featured-projects {
@@ -387,7 +387,7 @@
                 color: #fff;
                 max-width: max-content;
                 padding: 5px 15px;
-                line-height: 39px;
+                line-height: 41px;
                 @include breakpoint(sm) {
                     background-color: #09244b;
                 }
