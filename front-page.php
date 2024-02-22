@@ -50,6 +50,9 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
 
 
 
+
+
+
 <div id="featured-products" class="colour-banner">
     <span class="one"></span>
     <span class="two"></span>
@@ -59,10 +62,12 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
 </div>
 
 <div class="coloured-background">
-    <div class="container featured-projects">
+    <div class="container featured-projects" style="position: relative;">
         <div class="headline">
             <h2 class="headline-copy">Featured Projects</h2>
         </div>
+
+
 
         <div class="slide">
             <div class="ct-flex slider-block slider-block-white">
@@ -254,7 +259,7 @@ $star = get_template_directory_uri() . "/images/icons/star.svg";
 <div class="homepage-contact">
     <div class="chat-block">
         <h3>Want to Have a Chat About a Project or <br>Better Yet Want me as Part of Your Team?</h3>
-        <p>Email: <strong><a href="mailto:contact@benthomasgill.net">contact@benthomasgill.net</a></strong><br>
+        <p>Email: <strong><a href="mailto:benthomasgill@yahoo.com.au">benthomasgill@yahoo.com.au</a></strong><br>
         Phone: <strong><a href="tel:0433359760">0433359760</a><strong>
         </p>
     </div>
